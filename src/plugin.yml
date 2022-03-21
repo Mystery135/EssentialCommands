@@ -1,0 +1,35 @@
+name: EssentialCommands
+main: com.websiteofgames.essentialcommands.Main
+version: 1.0
+api-version: 1.17
+commands:
+  spawn:
+    description: Spawns a certain amount of a certain mob
+    usage: /<command> <mob type> <amount> <spawn where looking (Boolean)>
+    permission: essentialcommands.spawn
+    permission-message: §cYou don't have the permission to do this!
+  oldpvp:
+    description: Sets pre 1.8 pvp to true or false
+    usage: /<command> <true/false>
+    permission: essentialcommands.oldpvp
+    permission-message: §cYou don't have the permission to do this!
+  spawnon:
+    usage: /<command> <target player> <type of mob> <amount> <spawn entities where target is looking>
+    description: Spawns a certain amount of a certain entity on a certain player
+    permission: essentialcommands.spawnon
+    permission-message: §cYou don't have the permission to do this!
+  addunsafeenchantment:
+    usage: /<command> <target player> <enchantment> <enchantment level>
+    description: Adds an unsafe enchantment to the item the target player is holding
+    permission: essentialcommands.addunsafeenchantment
+    permission-message: §cYou don't have the permission to do this!
+  comboduels:
+    usage: /<command> <true/false>
+    description: Sets MaximumNoDamageTicks to either 0 or 20
+    permission: essentialcommands.comboduels
+    permission-message: §cYou don't have the permission to do this!
+  setlore:
+    usage: /<command> <lore> <target>
+    description: Sets lore on the item target is holding
+    permission: essentialcommands.setlore
+    permission-message: §cYou don't have the permission to do this!

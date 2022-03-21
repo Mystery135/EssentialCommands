@@ -1,0 +1,5 @@
+setlore:
+  newlinekey: "/newline/"
+oldpvp: false
+comboduels: false
+AxesAffectedByOldPVP: false
