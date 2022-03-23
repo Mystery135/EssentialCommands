@@ -37,7 +37,7 @@ public class SetLore implements CommandExecutor {
             }
             String[] truelore = truelorestring.split(Objects.requireNonNull(Main.getPlugin().getConfig().getString("setlore.newlinekey")));
             for (String s:truelore){
-                lore.add(ChatColor.translateAlternateColorCodes('&', s));
+                lore.add(ChatColor.translateAlternateColorCodes(Main.getPlugin().getConfig().get("AlternateColorCode").toString().charAt(0), s));
             }
 
 

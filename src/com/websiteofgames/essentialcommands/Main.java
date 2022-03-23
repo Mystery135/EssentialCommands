@@ -53,6 +53,9 @@ private static Main plugin;
         getCommand("addunsafeenchantment").setTabCompleter(new addUnsafeEnchantmentTabCompleter());
         getCommand("comboduels").setExecutor(new setComboDuels());
         getCommand("comboduels").setTabCompleter(new OldPvPTabCompleter());
+        getCommand("setdisplayname").setExecutor(new setDisplayName());
+        getCommand("findnearest").setExecutor(new findNearest());
+        getCommand("findnearest").setTabCompleter(new SpawnTabCompleter());
 
 
         int pluginId = 14701; // <-- Replace with the id of your plugin!

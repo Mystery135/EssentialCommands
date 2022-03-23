@@ -37,21 +37,23 @@ public class SpawnTabCompleter implements TabCompleter {
 
         }else if (args.length == 2){
 
-            List<String> nums = new ArrayList<>();
-            nums.add("1");
-            nums.add("10");
-            nums.add("100");
-            nums.add("1000");
-return nums;
+                List<String> nums = new ArrayList<>();
+                nums.add("1");
+                nums.add("10");
+                nums.add("100");
+                nums.add("1000");
+
+                return nums;
+
         }else if (args.length == 3){
+if (cmd.getName().equalsIgnoreCase("spawn")) {
+    List<String> bool = new ArrayList<>();
+    bool.add("!Spawn entities where you are looking?");
+    bool.add("true");
+    bool.add("false");
 
-            List<String> bool = new ArrayList<>();
-            bool.add("!Spawn entities where you are looking?");
-            bool.add("true");
-            bool.add("false");
-
-return bool;
-
+    return bool;
+}
         }
 
         else{
@@ -60,6 +62,6 @@ return bool;
 
         }
 
-
+return null;
     }
 }

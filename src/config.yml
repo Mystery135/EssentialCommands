@@ -3,3 +3,5 @@ setlore:
 oldpvp: false
 comboduels: false
 AxesAffectedByOldPVP: false
+#For /setdisplayname and /setlore
+AlternateColorCode: '&'

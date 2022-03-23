@@ -29,7 +29,17 @@ commands:
     permission: essentialcommands.comboduels
     permission-message: §cYou don't have the permission to do this!
   setlore:
-    usage: /<command> <lore> <target>
+    usage: /<command> <target> <lore>
     description: Sets lore on the item target is holding
     permission: essentialcommands.setlore
+    permission-message: §cYou don't have the permission to do this!
+  setdisplayname:
+    usage: /<command> <target> <lore>
+    description: Sets the display name on the item target is holding
+    permission: essentialcommands.setdisplayname
+    permission-message: §cYou don't have the permission to do this!
+  findnearest:
+    usage: /<command> <entity type> <range>
+    description: Finds the nearest entity of a specific type in a specific range and teleports you to that entity
+    permission: essentialcommands.findnearest
     permission-message: §cYou don't have the permission to do this!
