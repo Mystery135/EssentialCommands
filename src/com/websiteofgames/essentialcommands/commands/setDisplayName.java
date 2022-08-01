@@ -23,7 +23,13 @@ public class setDisplayName implements CommandExecutor {
                 ItemMeta meta = player.getInventory().getItemInMainHand().getItemMeta();
                 String displayname = "";
                 for (int i = 1; i<args.length; i++){
-                    displayname = displayname + " " + args[i];
+                    if (i == args.length-1){
+                        displayname+=args[i];
+
+                    }else{
+                        displayname+=args[i] + " ";
+
+                    }
                 }
 
 

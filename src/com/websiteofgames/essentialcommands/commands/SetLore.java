@@ -25,6 +25,12 @@ public class SetLore implements CommandExecutor {
             for (int i = 0; i<args.length; i++){
 
             lores.add(args[i]);
+            if(i != args.length-1 && i != 0){
+                lores.add(" ");
+            }else{
+                Bukkit.broadcastMessage("dsfsadf");
+
+            }
             }
             lores.remove(0);
 

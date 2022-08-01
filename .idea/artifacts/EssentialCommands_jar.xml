@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="EssentialCommands:jar">
-    <output-path>$PROJECT_DIR$/../../Plugins/Server/plugins</output-path>
+    <output-path>$PROJECT_DIR$/../../Plugins/TNTWars/plugins</output-path>
     <root id="archive" name="EssentialCommands.jar">
       <element id="module-output" name="EssentialCommands" />
     </root>

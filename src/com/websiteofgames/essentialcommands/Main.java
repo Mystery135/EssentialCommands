@@ -56,6 +56,7 @@ private static Main plugin;
         getCommand("setdisplayname").setExecutor(new setDisplayName());
         getCommand("findnearest").setExecutor(new findNearest());
         getCommand("findnearest").setTabCompleter(new SpawnTabCompleter());
+        getCommand("makeunbreakable").setExecutor(new MakeUnbreakable());
 
 
         int pluginId = 14701; // <-- Replace with the id of your plugin!

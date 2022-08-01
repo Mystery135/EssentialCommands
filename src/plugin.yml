@@ -1,7 +1,7 @@
 name: EssentialCommands
 main: com.websiteofgames.essentialcommands.Main
-version: 1.0
-api-version: 1.17
+version: 1.4
+api-version: 1.19
 commands:
   spawn:
     description: Spawns a certain amount of a certain mob
@@ -42,4 +42,9 @@ commands:
     usage: /<command> <entity type> <range>
     description: Finds the nearest entity of a specific type in a specific range and teleports you to that entity
     permission: essentialcommands.findnearest
+    permission-message: §cYou don't have the permission to do this!
+  makeunbreakable:
+    usage: /<command> <target>
+    description: Makes the item the target is holding unbreakable
+    permission: essentialcommands.makeunbreakable
     permission-message: §cYou don't have the permission to do this!
